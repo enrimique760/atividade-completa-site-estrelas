@@ -1,0 +1,92 @@
+.supernova {
+    background-image: url("fundo06.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 600px;
+    padding: 5% 0 0;
+    margin: auto;  
+}
+ header{
+  height: 90px;
+  background-color: #000000;
+  color: #faf8f8;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+ }
+body { 
+    min-height: 99vh;
+    flex-direction: column;
+    margin: 0;
+    text-align: left;
+    
+  }
+header, footer {
+    background: none;
+    height: 10vh;
+    
+}
+  header, footer,nav, aside {
+    padding: 1em;
+  }
+
+  
+  
+  .item {
+    background: #3503c0;
+    border: 1px solid #bbb;
+    padding: 15px;
+    overflow: hidden;
+  }
+  .sidebar {
+	background-color: #000000;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 200px;
+	color: #fff;
+  padding: 1px
+}
+.sidebar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.sidebar li {
+	padding: 10px;
+}
+.sidebar li:hover {
+	background-color: #f10000;
+}
+.sidebar a {
+	color: #fafafa;
+	text-decoration: none;
+}
+h1, h2, p, nav{
+    font-family: 'Sonsie One', cursive ;
+    color: #ffffff;
+}
+h1, h2, h3{
+    font-family: 'Sonsie One', cursive;
+    color: #ffffff;
+}
+h1{
+    font-family: 'Sonsie One', cursive;
+    color: #e70000;
+}
+h2{
+    font-family: 'Sonsie One', cursive;
+    color: #ca0000;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 70%;
+  margin: 0 auto;
+}
